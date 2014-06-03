@@ -338,6 +338,18 @@ a:after {
 	margin-bottom: 10px;
 }
 
+#whitewrap .icon {
+
+    font-size: 60px;
+    line-height: 30px;
+    margin-bottom: 10px;
+
+
+}
+
+#whitewrap {
+    text-align: center;
+}
 #footerwrap {
 	background: #2b2b2b;
 	margin-top: 0px;
@@ -635,3 +647,17 @@ a:after {
 	}
 }
 
+
+
+#navbar-main img{
+    width: 150px;
+    height: auto;
+    max-height: 50%;
+    max-width: auto;
+    background-color: transparent;
+}
+
+#headerwrap{
+    display: block;
+    padding-top: 200px;
+}

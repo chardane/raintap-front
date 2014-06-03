@@ -14,6 +14,7 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/login_styles.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link href="assets/css/animate-custom.css" rel="stylesheet">
 
@@ -37,18 +38,112 @@
 
 </head>
 <body>
+    <div id="navbar-main">
+      <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon icon-shield" style="font-size:30px; color:#3498db;"></span>
+
+          </button>
+          <a href="index.html"> <img src="assets/img/raintap-nav.png" /> </a>
+          
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html" class="smoothScroll">Home</a></li>
+            <li> <a href="index.html#about" class="smoothScroll"> Mission</a></li>
+            <li> <a href="index.html#services" class="smoothScroll"> Benefits</a></li>
+            <li> <a href="index.html#team" class="smoothScroll"> Team</a></li>
+            <li> <a href="index.html#portfolio" class="smoothScroll"> Buy Now</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            <li><a href="login.html" class="smoothScroll">Login</a></li>
+             <li><a href="register.html" class="smoothScroll">Register</a></li>
+            </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    </div>
+
 		<div class="container" id="about" name="about">
 			<div class="row white login">
-			<br>
-				<h1 class="centered">WELCOME!</h1>
-				<hr>
+		
+
+				<h1 class="centered">
+                    <img src="assets/img/raintap-blue.png" /> <br /> <br />
+                    WELCOME</h1>
+			
 				<label for="email">Email: </label> <br />
 				<input type="text" id="email" placeholder="name@email.com" /> <br />
 				<label for="pass">Password: </label>
-				<input type="text" id="pass" placeholder= "************" />
-			
+				<input type="text" id="pass" placeholder= "************" /> <br />
+			     <a href="#"> Forgot your username or password? </a>
 			</div><!-- row -->
-		</div><!-- container -->
+		
+
+            <div class="row" id= "footer_login">
+           
+          
+                <br>
+                <br>
+                <div class="col-lg-3">
+                    <h3>Contact Information</h3>
+                    <p><span class="icon icon-home"></span> Davis, CA<br/>
+                        <span class="icon icon-phone"></span> 1-530-xxx-xxxx <br/>
+                        <span class="icon icon-mobile"></span> 1-530-xxx-xxxx<br/>
+                        <span class="icon icon-envelop"></span> <a href="#"> contact@raintap.com</a> <br/>
+                        <span class="icon icon-twitter"></span> <a href="#"> @raintap_co </a> <br/>
+                        <span class="icon icon-facebook"></span> <a href="#">Raintap </a> <br/>
+                    </p>
+                </div><!-- col -->
+                
+                <div class="col-lg-6">
+                    <h3>Newsletter</h3>
+                    <p>Register to our newsletter and be updated with the latests information regarding our services, offers and much more.</p>
+                    <p>
+                        <form class="form-horizontal" role="form">
+                          <div class="form-group">
+                            <label for="inputEmail1" class="col-lg-4 control-label"></label>
+                            <div class="col-lg-10">
+                              <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="text1" class="col-lg-4 control-label"></label>
+                            <div class="col-lg-10">
+                              <input type="text" class="form-control" id="text1" placeholder="Your Name">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-lg-10">
+                              <button type="submit" class="btn btn-success">Sign in</button>
+                            </div>
+                          </div>
+                       </form><!-- form -->
+                    </p>
+                </div><!-- col -->
+                
+                <div class="col-lg-3">
+                    <h3>Support</h3>
+                
+                    <a href="#">FAQ</a><br />
+                    <a href="#">Billing Questions</a><br />
+                    <a href="#">About Us</a><br />
+                    <a href="#">Blog</a><br />
+                    <a href="#">Media Kit</a><br />
+                    
+                    
+                </div><!-- col -->
+
+            </div><!-- row -->
+        
+
+        </div>
+        
+
 </body>
 </html>
 
